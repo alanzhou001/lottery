@@ -10,7 +10,7 @@ const prizes = [{
         type: 0,
         count: 1,
         title: "",
-        text: "特别奖"
+        text: "补"
     },
     {
         type: 1,
