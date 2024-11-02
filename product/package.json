@@ -6,8 +6,8 @@
   "scripts": {
     "start": "cd dist && node ../../server/index.js 8888",
     "serve": "npm run start",
-    "build": "webpack --mode=production --progress --colors",
-    "dev": "webpack-dev-server --config webpack.dev.js --mode=development --progress --colors"
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && webpack --mode=production --progress --colors",
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && webpack-dev-server --config webpack.dev.js --mode=development --progress --colors"
   },
   "author": "moshang",
   "license": "ISC",
